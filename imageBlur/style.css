@@ -1,0 +1,44 @@
+body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    height: 100vh;
+}
+
+img {
+    width: 150px;
+    height: auto;
+    cursor: pointer;
+}
+#mona,
+#toyota,
+#honda,
+#mercedes,
+#tesla
+ {
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease
+}
+#mona.blurred,
+#toyota.blurred,
+#honda.blurred,
+#mercedes.blurred,
+#tesla.blurred {
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    -webkit-transition: all 2s ease;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    -webkit-transform:rotate(360deg) scale(2);
+            transform:rotate(360deg) scale(2);
+}
