@@ -33,6 +33,17 @@ function Calculator() {
 let calculator = new Calculator();
 calculator.read();
 
-alert( "Сумма=" + calculator.sum() );
-alert( "Произведение=" + calculator.mul() );
+let summa = document.getElementById('sum');
+summa.addEventListener('click', getSum);
+
+let mul = document.getElementById('mul');
+mul.addEventListener('click', getMul);
+
+function getSum() {
+	alert( "Сумма=" + calculator.sum() );
+}
+function getMul() {
+	alert( "Произведение=" + calculator.mul() );
+}
+
 

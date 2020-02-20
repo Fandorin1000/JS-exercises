@@ -10,7 +10,7 @@ function makeHelpCallback(help) {
 
 function setupHelp() {
   var helpText = [
-      {'id': 'email', 'help': 'Ваш адрес e-mail'},
+      {'id': 'email', 'help': 'Ваш адресc e-mail'},
       {'id': 'name', 'help': 'Ваше полное имя'},
       {'id': 'age', 'help': 'Ваш возраст (Вам должно быть больше 16)'}
     ];

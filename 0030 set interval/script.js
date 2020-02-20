@@ -13,9 +13,13 @@ P.S. Функция должна использовать setInterval.
 
 function printNumbersInterval() {
   var i = 1;
-  var timerId = setInterval(function() {
-    console.log(i);
-    if (i == 20) clearInterval(timerId);
+  var timerId = setInterval(function () {
+    let p = document.getElementById('p');
+    p.innerHTML = i;
+    if (i == 20) {
+      clearInterval(timerId);
+      alert('timer stop after 20 second')
+    };
     i++;
   }, 1000);
 }
