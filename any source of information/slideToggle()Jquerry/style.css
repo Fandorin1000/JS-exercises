@@ -1,0 +1,26 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container {
+    max-width: 500px;
+    text-align: center;
+    
+}
+.title {
+    position: relative;
+    cursor: pointer;
+}
+.descr {
+    width:100%;
+    position: absolute;
+    background-color: #949494;
+}

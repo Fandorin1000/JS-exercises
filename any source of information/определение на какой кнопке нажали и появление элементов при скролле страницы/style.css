@@ -1,0 +1,31 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 200vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btns a {
+    padding: 50px;
+    cursor: pointer;
+    display: block;
+    background-color: yellow;
+    margin:10px;
+    transition: .5s;
+   transform:scale(0);
+}
+.btns a:hover {
+    background-color: red;
+}
+.border {
+    border:5px solid lightblue;
+}

@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+body select {
+  margin:20px;
+  cursor: pointer;
+}
+body button {
+    width:100px;
+    height:50px;
+    cursor: pointer;
+    margin:20px;
+}
